@@ -18,7 +18,7 @@ public class BasicCalculator {
         fetch.nextLine();
 
         //fetch operator input
-        System.out.println("Please select an option: ");
+        System.out.println("Please select an option:\n A for Addition\n S for Subtraction\n M for Multiplication\n D for Division");
         String operator = fetch.nextLine();
 
         //calculating
